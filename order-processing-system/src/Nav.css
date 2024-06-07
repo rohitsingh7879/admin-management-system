@@ -1,0 +1,16 @@
+.logo {
+    width: 100px; /* Set the width of your logo */
+    height: 100px; /* Set the height of your logo */
+    background: url('./logo.mp4') no-repeat center center;
+    background-size: cover;
+    animation: rotate 2s infinite linear; /* Rotate the logo infinitely */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
